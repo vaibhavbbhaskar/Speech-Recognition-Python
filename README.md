@@ -1,6 +1,6 @@
 # Speech Recognition in Python
 
-This project is a simple web application for transcribing audio files to text using Python and Google's Speech-to-Text API. The web application allows users to upload .wav files and see the transcribed text.
+This project is a simple web application for transcribing audio files to text using Python, Flask and Google's Speech-to-Text API. The web application allows users to upload .wav files and see the transcribed text.
 
 ## Features
 
