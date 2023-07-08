@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speech Recognition in Python</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+
+<div id="speechContainer">
+    <h1>Upload New File</h1>
+    {% if message != "" %}
+    <div class="error">
+        {{ message }}
+    </div>
+    {% endif %}
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="speechContainer"/>
+        <div class="noteBox">
+            <p class="note">Please note: This tool only supports .wav audio files</p>
+            
+        </div>
+        <input type="submit" value="Transcribe"/>
+    </form>
+    {% if transcript != ""%}
+    <div id ="speechTranscriptContainer">
+        <h1>Transcript</h1>
+        <p>{{transcript}}</p>
+    </div>
+    {%endif%}
+</div>
+
+</body>
+</html>

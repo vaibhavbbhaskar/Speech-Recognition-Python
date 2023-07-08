@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to right, #3003fa, #6d3aa8);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#speechContainer {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noteBox {
+    background: rgb(245, 245, 245);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #000000;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+#speechTranscriptContainer {
+    margin-top: 20px;
+}
+
+.error {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
