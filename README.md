@@ -12,23 +12,24 @@ This project is a simple web application for transcribing audio files to text us
 ## Installation
 
 1. Clone this repository:
-
+```
 git clone https://github.com/yourusername/Speech-Recognition-Python.git
-
+```
 2. Navigate to the project directory:
-
+```
 cd Speech-Recognition-Python
-
+```
 3. Install the necessary Python packages:
-
+```
 python3 -m pip install flask
+```
+```
 python3 -m pip install SpeechRecognition
+```
 
 ## Usage
 
-1. Start the application:
-
-python app.py
+1. Start the application in the app.py file
 
 2. Open the link shown in the terminal in a web browser.
 
