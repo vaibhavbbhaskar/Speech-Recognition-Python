@@ -10,10 +10,9 @@
 <div id="speechContainer">
     <h1>Upload New File</h1>
     {% if message != "" %}
-    <div class="error">
-        {{ message }}
-    </div>
+    <div class="error"> {{ message }}</div>
     {% endif %}
+    
     <form method="post" enctype="multipart/form-data">
         <input type="file" name="file" id="speechContainer"/>
         <div class="noteBox">
@@ -22,12 +21,12 @@
         </div>
         <input type="submit" value="Transcribe"/>
     </form>
-    {% if transcript != ""%}
-    <div id ="speechTranscriptContainer">
+    {% if transcript %}
+        <div id="transcript">
         <h1>Transcript</h1>
-        <p>{{transcript}}</p>
-    </div>
-    {%endif%}
+        <p>{{ transcript }}</p>
+        </div>
+    {% endif %}
 </div>
 
 </body>
