@@ -6,7 +6,7 @@ This project is a simple web application for transcribing audio files to text us
 
 - File upload functionality
 - Audio transcription using Google's Speech-to-Text API
-- Error handling for non-.wav files
+- Error handling for unrecognizable files & more
 - Beautiful and user-friendly interface
 
 ## Installation
@@ -26,7 +26,9 @@ python3 -m pip install flask
 ```
 python3 -m pip install SpeechRecognition
 ```
-
+```
+python3 -m pip install ffmpeg-python
+```
 ## Usage
 
 1. Start the application in the app.py file
