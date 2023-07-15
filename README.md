@@ -26,7 +26,9 @@ python3 -m pip install flask
 ```
 python3 -m pip install SpeechRecognition
 ```
-
+```
+python3 -m pip install ffmpeg-python
+```
 ## Usage
 
 1. Start the application in the app.py file
