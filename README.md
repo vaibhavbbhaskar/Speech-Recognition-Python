@@ -6,7 +6,7 @@ This project is a simple web application for transcribing audio files to text us
 
 - File upload functionality
 - Audio transcription using Google's Speech-to-Text API
-- Error handling for unrecognizable files & more
+- Error handling for unrecognizable files, audio & more
 - Beautiful and user-friendly interface
 
 ## Installation
